@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #808080;
+}
+
+.container{
+    background-color: white;
+    width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.one{
+    margin: 10px auto;
+}
+
+.two{
+    margin: 10px auto;
+    margin-right: 40px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.svg{
+    width: 200px;
+}
+
+.free{
+    height: 40px;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+}
+
+.fans{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.way{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* .discussion {
+    text-align: center;
+} */
+
+.started{
+    background-color: #fd53c0;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.screen{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.your{
+    width: 300px;
+}
+
+.container-two-A{
+    display: flex;
+    gap: 200px;
+}
+
+.img-one{
+    margin-bottom: 300px;
+}
+
+.container-one{
+    margin: 10px auto;
+}
+
+/* .form{
+    display: flex;
+} */
+
+.three{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.grow{
+    margin-top: 50px;
+}
+
+.form{
+    margin-bottom: 250px;
+}
+
+.container-three{
+    
+}
+
+.container-four{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.paginate{
+    margin-left: 30px;
+}
+
+.container-five{
+    display: flex;
+    align-items: center;
+}
+
+.users{
+    display: none;
+}
+
+.ready{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.get{
+    width: 200px;
+    height: 40px;
+    background-color: #fd53c0;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+
+@media all and (max-width: 700px) {
+    .container{
+        width: 150%;
+    }
+
+
+}
